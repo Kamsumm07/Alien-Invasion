@@ -3,10 +3,10 @@ from pygame.sprite import Sprite
 from random import randint
 
 class Alien(Sprite):
-    def __init__(self, ss_game):
+    def __init__(self, rg_game):
         super().__init__()
-        self.screen = ss_game.screen
-        self.settings = ss_game.settings
+        self.screen = rg_game.screen
+        self.settings = rg_game.settings
         self.image = pygame.image.load('images/redmot.png')
         self.rect = self.image.get_rect()
         self.rect.bottom = self.screen.get_rect().top

@@ -11,6 +11,6 @@ class Settings:
         self.bullets_allowed = 10
         self.alien_speed = 7.5
         self.alien_frequency = 0.015
-        self.car_limit = 0
+        self.car_limit = 2
 
 #main settings class which controlls the screen height and length as well as the speeds of the enemies and players

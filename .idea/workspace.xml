@@ -2,26 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="f6b522fd-d9f9-460f-9638-96d55f57db99" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/.gitattributes" beforeDir="false" afterPath="$PROJECT_DIR$/other/.gitattributes" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/other/.gitignore" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/other/README.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/alien_invasion.py" beforeDir="false" afterPath="$PROJECT_DIR$/other/alien_invasion.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/backgroundAI.py" beforeDir="false" afterPath="$PROJECT_DIR$/other/backgroundAI.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/backgrund.py" beforeDir="false" afterPath="$PROJECT_DIR$/other/backgrund.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/better.py" beforeDir="false" afterPath="$PROJECT_DIR$/other/better.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bulletAI.py" beforeDir="false" afterPath="$PROJECT_DIR$/other/bulletAI.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/game_character.py" beforeDir="false" afterPath="$PROJECT_DIR$/other/game_character.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/keys.py" beforeDir="false" afterPath="$PROJECT_DIR$/other/keys.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/main_game.py" beforeDir="false" afterPath="$PROJECT_DIR$/other/main_game.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/raindrop.py" beforeDir="false" afterPath="$PROJECT_DIR$/other/raindrop.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/rocket.py" beforeDir="false" afterPath="$PROJECT_DIR$/other/rocket.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/rocket_game.py" beforeDir="false" afterPath="$PROJECT_DIR$/other/rocket_game.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/settings_AI.py" beforeDir="false" afterPath="$PROJECT_DIR$/other/settings_AI.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/settings_rocket.py" beforeDir="false" afterPath="$PROJECT_DIR$/other/settings_rocket.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ship.py" beforeDir="false" afterPath="$PROJECT_DIR$/other/ship.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/sideways.py" beforeDir="false" afterPath="$PROJECT_DIR$/other/sideways.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/stars.py" beforeDir="false" afterPath="$PROJECT_DIR$/other/stars.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/steady.py" beforeDir="false" afterPath="$PROJECT_DIR$/other/steady.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Alien.py" beforeDir="false" afterPath="$PROJECT_DIR$/Alien.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/Settings.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/racing_game.py" beforeDir="false" afterPath="$PROJECT_DIR$/SummersRacingGame.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -63,6 +47,9 @@
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="C:\Users\m256138\Documents\GitHub\Alien-Invasion" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\m256138\Documents\GitHub\Alien-Invasion\other" />
     </key>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />

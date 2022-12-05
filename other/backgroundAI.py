@@ -17,9 +17,9 @@ grid = [
 TILE_SIZE = 128
 
 # define images for our background
-grass = pygame.image.load("images/grass.png")
-dirt = pygame.image.load("images/dirt.png")
-track = pygame.image.load("images/greentrack.png")
+grass = pygame.image.load("../images/grass.png")
+dirt = pygame.image.load("../images/dirt.png")
+track = pygame.image.load("../images/greentrack.png")
 
 soils = [grass,dirt,track]
 

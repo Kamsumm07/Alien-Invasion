@@ -1,7 +1,7 @@
 import sys
 import pygame
 from settings_AI import Settings
-from rocket import Rocket
+from other.rocket import Rocket
 
 class RocketGame:
     def __init__(self):

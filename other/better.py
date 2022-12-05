@@ -12,7 +12,7 @@ class Star(Sprite):
     def __init__(self, si_game):
         super().__init__()
         self.screen = si_game.screen
-        self.image = pygame.image.load('images/star.png')
+        self.image = pygame.image.load('../images/star.png')
         self.rect = self.image.get_rect()
 
 class StarInvasion:

@@ -23,7 +23,7 @@ class Alien(Sprite):
         super().__init__()
         self.screen = ss_game.screen
         self.settings = ss_game.settings
-        self.image = pygame.image.load('images/aliens.png')
+        self.image = pygame.image.load('../images/aliens.png')
         self.rect = self.image.get_rect()
         self.rect.left = self.screen.get_rect().right
         alien_top_max = self.settings.screen_height - self.rect.height
@@ -76,7 +76,7 @@ class Ship:
         self.screen = ss_game.screen
         self.settings = ss_game.settings
         self.screen_rect = ss_game.screen.get_rect()
-        self.image = pygame.image.load('images/ship.bmp')
+        self.image = pygame.image.load('../images/ship.bmp')
         self.rect = self.image.get_rect()
         self.center_ship()
         self.moving_up = False

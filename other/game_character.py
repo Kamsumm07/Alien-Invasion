@@ -4,7 +4,7 @@ import time
 class GameCharacter:
     def __init__(self, screen):
         self.screen = screen
-        self.image = pygame.image.load('images/zombie.png')
+        self.image = pygame.image.load('../images/zombie.png')
         self.image_rect = self.image.get_rect()
         screen_rect = screen.get_rect()
         self.image_rect.center = screen_rect.center

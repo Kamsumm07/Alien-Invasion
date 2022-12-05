@@ -12,7 +12,7 @@ class Star(Sprite):
         super().__init__()
         self.screen = si_game.screen
         self.settings = si_game.settings
-        self.image = pygame.image.load('images/star.png')
+        self.image = pygame.image.load('../images/star.png')
         self.rect = self.image.get_rect()
         self.rect.x = self.rect.width
         self.rect.y = self.rect.height

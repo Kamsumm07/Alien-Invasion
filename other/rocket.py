@@ -6,7 +6,7 @@ class Rocket:
         self.screen = ai_game.screen
         self.settings = ai_game.settings
         self.screen_rect = ai_game.screen.get_rect()
-        self.image = pygame.image.load("images/red_rocket.bmp")
+        self.image = pygame.image.load("../images/red_rocket.bmp")
         self.rect = self.image.get_rect()
         self.rect.center = self.screen_rect.center
 

@@ -1,6 +1,6 @@
 import sys
 import pygame
-from settings import Settings
+from settings_AI import Settings
 from rocket import Rocket
 
 class RocketGame:

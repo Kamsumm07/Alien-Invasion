@@ -1,8 +1,8 @@
 import sys
 import pygame
-from settings import Settings
+from settings_AI import Settings
 from ship import Ship
-from bullet import Bullet
+from bulletAI import Bullet
 
 class AlienInvasion:
     def __init__(self):

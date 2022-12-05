@@ -2,8 +2,24 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="f6b522fd-d9f9-460f-9638-96d55f57db99" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/Alien.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Background.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Bullet.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Car.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Car2.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/GameStats.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Settings.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/roadbacl.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/music/Assets_Audio_music.ogg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/music/laser.wav" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/alien_invasion.py" beforeDir="false" afterPath="$PROJECT_DIR$/alien_invasion.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/background.py" beforeDir="false" afterPath="$PROJECT_DIR$/backgroundAI.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bullet.py" beforeDir="false" afterPath="$PROJECT_DIR$/bulletAI.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/main_game.py" beforeDir="false" afterPath="$PROJECT_DIR$/main_game.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/racing_game.py" beforeDir="false" afterPath="$PROJECT_DIR$/racing_game.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/rocket_game.py" beforeDir="false" afterPath="$PROJECT_DIR$/rocket_game.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/settings_AI.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />

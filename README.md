@@ -2,6 +2,7 @@
 
 To be able to play:
 - Make sure that Python3 & Pygame is installed on your laptop
+- Use file RacingGame
 - Run the game
 
 

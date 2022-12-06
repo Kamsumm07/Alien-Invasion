@@ -17,4 +17,4 @@ Controls:
 
 - For Gunner Car: Use Left and Right Arrows to move side to side and the Space-Bar to shoot enemies
 - For Get-Away Car: Use A and D for movements left and right respectively
-- After you lose your 3rd life, the Game Over Screen will appear. Press "Q" to exit
+- After you lose you lose, the Game Over Screen will appear. Press "Q" to exit

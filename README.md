@@ -11,7 +11,7 @@ How to Play:
 - Survive as long as you can can without hitting enemy motercycle
 - Protect the get away car(on right side) with the gunner car (on left side) using the machine gun attached to the car, which will disenegrate the enemies
 - Score increases the more motercycles you pass without getting hit
-- You will only have 1 life, after you use life the game will end
+- You will only have 1 life, after you use the life the game will end
 
 Controls:
 

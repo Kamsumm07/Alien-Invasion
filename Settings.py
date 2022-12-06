@@ -9,8 +9,8 @@ class Settings:
         self.bullet_height = 15
         self.bullet_color = (255, 255, 255)
         self.bullets_allowed = 10
-        self.alien_speed = 7.5
-        self.alien_frequency = 0.015
-        self.car_limit = 2
+        self.motor_speed = 7.5
+        self.motor_frequency = 0.015
+        self.car_limit = 0
 
 #main settings class which controlls the screen height and length as well as the speeds of the enemies and players

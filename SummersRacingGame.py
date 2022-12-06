@@ -6,7 +6,7 @@ from Car import Car
 from Car2 import Car2
 from Settings import Settings
 from Bullet import Bullet
-from Alien import Alien
+from Motor import Motor
 from GameStats import GameStats
 from Background import Background
 
@@ -22,7 +22,7 @@ class RacingGame:
         self.car2 = Car2(self)
         self.background = Background(self)
         self.bullets = pygame.sprite.Group()
-        self.aliens = pygame.sprite.Group()
+        self.motors = pygame.sprite.Group()
         self.stats = GameStats(self)
 
     def run_game(self):
@@ -34,8 +34,8 @@ class RacingGame:
                 self.car.update()
                 self.car2.update()
                 self._update_bullets()
-                self._update_aliens()
-                self._create_alien()
+                self._update_motors()
+                self._create_motor()
             self._update_screen()
 
         Font = pygame.font.SysFont('Arial', 60)
@@ -59,36 +59,36 @@ class RacingGame:
     def _car_hit(self):
         if self.stats.cars_left > 0:
             self.stats.cars_left -= 1
-            self.aliens.empty()
+            self.motors.empty()
             self.bullets.empty()
             #self.car.center_car()
         else:
             self.stats.game_active = False
-#when motercycles hit car minus 1 life
+#when motorcycles hit car minus 1 life
 
 
-    def _create_alien(self):
-        if random() < self.settings.alien_frequency:
-            alien = Alien(self)
-            self.aliens.add(alien)
-            print(len(self.aliens))
-#creating the moterycle and how many come through
+    def _create_motor(self):
+        if random() < self.settings.motor_frequency:
+            motor = Motor(self)
+            self.motors.add(motor)
+            print(len(self.motors))
+#creating the mot0rycle and how many come through
 
         Font = pygame.font.SysFont('Arial', 30)
-        score_text = Font.render(f"SCORE: {len(self.aliens)}", True, (0, 0, 0))
+        score_text = Font.render(f"SCORE: {len(self.motors)}", True, (0, 0, 0))
         self.screen.blit(score_text, (15, 20))
-#shows the score of the game by how many motercycles you pass
+#shows the score of the game by how many motorcycles you pass
 
-    def _update_aliens(self):
-        self.aliens.update()
-        if pygame.sprite.spritecollideany(self.car, self.aliens):
+    def _update_motors(self):
+        self.motors.update()
+        if pygame.sprite.spritecollideany(self.car, self.motors):
             self._car_hit()
-        if pygame.sprite.spritecollideany(self.car2, self.aliens):
+        if pygame.sprite.spritecollideany(self.car2, self.motors):
             self._car_hit()
 
-#when the car and moterycles collide it signals it got hit
-    def _check_bullet_alien_collisions(self):
-        collisions = pygame.sprite.groupcollide(self.bullets, self.aliens, True, True)
+#when the car and motorycles collide it signals it got hit
+    def _check_bullet_motor_collisions(self):
+        collisions = pygame.sprite.groupcollide(self.bullets, self.motors, True, True)
 #same thing but just for bullet
 
     def _check_events(self):
@@ -133,7 +133,7 @@ class RacingGame:
         for bullet in self.bullets.copy():
             if bullet.rect.bottom <= 0:
                 self.bullets.remove(bullet)
-        self._check_bullet_alien_collisions()
+        self._check_bullet_motor_collisions()
 #if bullet hits something then it collides if not then its removed essentially
 
     def _fire_bullet(self):
@@ -147,10 +147,10 @@ class RacingGame:
         self.background.blitme()
         self.car.blitme()
         self.car2.blitme()
-        self._create_alien()
+        self._create_motor()
         for bullet in self.bullets.sprites():
             bullet.draw_bullet()
-        self.aliens.draw(self.screen)
+        self.motors.draw(self.screen)
         pygame.display.flip()
 
 
